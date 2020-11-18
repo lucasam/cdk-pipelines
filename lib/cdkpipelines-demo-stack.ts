@@ -4,6 +4,7 @@ import {CfnOutput, Construct, Stack, StackProps} from '@aws-cdk/core';
 import * as path from 'path';
 import * as cdk from '@aws-cdk/core';
 
+
 export class CdkpipelinesDemoStack extends cdk.Stack {
   public readonly urlOutput: CfnOutput;
 
