@@ -11,6 +11,10 @@ new CdkpipelinesDemoPipelineStack(app, 'CdkpipelinesDemoPipelineStack',
     });
 
 // new CdkpipelinesDemoStage(app, 'Dev', {
+//   env: { account: process.env.CDK_DEFAULT_ACCOUNT, region: process.env.CDK_DEFAULT_REGION },
+// });
+
+// new CdkpipelinesDemoStage(app, 'Dev', {
 //   env: { account: '645870768966', region: 'us-east-1' },
 // });
 
